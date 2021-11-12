@@ -30,6 +30,16 @@ import SwiftUI
 
 struct ContentView: View {
     //private let imageUrl: String = "https://picsum.photos/250?image=12"
+    
+    
+    @State private var selection: Tab = .featured
+    
+    enum Tab {
+        case featured
+        case favourites
+    }
+    
+    
     var body: some View {
         //MARK: - 1. URL
     
@@ -89,8 +99,22 @@ struct ContentView: View {
                 
         }*/
         
-        SceneryList()
         
+        
+        
+        TabView(selection: $selection){
+            CategoryHome()
+                .tabItem{
+                    Label("Destacados", systemImage: "star")
+                }
+                .tag(Tab.featured)
+            SceneryList()
+                .tabItem{
+                    Label("Favoritos", systemImage: "list.bullet")
+                }
+                .tag(Tab.favourites)
+        }
+                
         
         
     }

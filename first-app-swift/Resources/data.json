@@ -1,7 +1,7 @@
 [
     {
         "name": "Paisaje1",
-        "category": "Montaña",
+        "category": "Montañas",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1001,
@@ -17,7 +17,7 @@
     },
     {
         "name": "Paisaje2",
-        "category": "Montaña",
+        "category": "Montañas",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1002,
@@ -33,7 +33,7 @@
     },
     {
         "name": "Paisaje3",
-        "category": "Montaña",
+        "category": "Montañas",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1003,
@@ -49,7 +49,7 @@
     },
     {
         "name": "Paisaje4",
-        "category": "Montaña",
+        "category": "Lagos",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1004,
@@ -65,7 +65,7 @@
     },
     {
         "name": "Paisaje5",
-        "category": "Montaña",
+        "category": "Lagos",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1005,
@@ -81,7 +81,7 @@
     },
     {
         "name": "Paisaje6",
-        "category": "Montaña",
+        "category": "Lagos",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1006,
@@ -97,7 +97,7 @@
     },
     {
         "name": "Paisaje7",
-        "category": "Montaña",
+        "category": "Rios",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1007,
@@ -113,7 +113,7 @@
     },
     {
         "name": "Paisaje8",
-        "category": "Montaña",
+        "category": "Rios",
         "city": "Oviedo",
         "state": "Asturias",
         "id": 1008,
